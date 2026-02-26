@@ -1,0 +1,44 @@
+{
+  "characters": [
+    {
+      "name": "Skibidi Toilet",
+      "style": "toilet head character, waving, bathroom chaos, cartoon",
+      "tags": ["skibidi", "toilet", "brainrot"]
+    },
+    {
+      "name": "Sigma Cat",
+      "style": "cool cat with sunglasses, sigma face, anime style, confident",
+      "tags": ["sigma", "cat", "anime"]
+    },
+    {
+      "name": "Baby Gronk",
+      "style": "young football player, rizz pose, stadium background, energetic",
+      "tags": ["babygronk", "football", "rizz"]
+    },
+    {
+      "name": "Based Gigachad",
+      "style": "ultra chad face, muscular, extremely confident pose, dramatic lighting",
+      "tags": ["gigachad", "sigma", "based"]
+    },
+    {
+      "name": "NPC Girl",
+      "style": "anime NPC character, pink hair, repetitive gesture pose, pixel style",
+      "tags": ["npc", "anime", "brainrot"]
+    },
+    {
+      "name": "Rizz God",
+      "style": "charismatic character, glowing aura, smooth confident pose, stylish",
+      "tags": ["rizz", "sigma", "goat"]
+    },
+    {
+      "name": "Ohio Man",
+      "style": "average looking guy in ohio, shocked expression, surreal background",
+      "tags": ["ohio", "weird", "surreal"]
+    },
+    {
+      "name": "Gyatt Master",
+      "style": "confident character, surprised crowd around them, meme style",
+      "tags": ["gyatt", "sigma", "viral"]
+    }
+  ]
+}
