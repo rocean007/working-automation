@@ -52,14 +52,5 @@
         }
       ]
     }
-  ],
-  "env": {
-    "MONGODB_URI": "@mongodb_uri",
-    "YOUTUBE_CLIENT_ID": "@youtube_client_id",
-    "YOUTUBE_CLIENT_SECRET": "@youtube_client_secret",
-    "YOUTUBE_REFRESH_TOKEN": "@youtube_refresh_token",
-    "HUGGINGFACE_API_KEY": "@huggingface_api_key",
-    "ELEVENLABS_API_KEY": "@elevenlabs_api_key",
-    "CRON_SECRET": "@cron_secret"
-  }
+  ]
 }
