@@ -1,9 +1,5 @@
 # 🧠 Brainrot Content Automation
 
-Automated YouTube Shorts generator using free AI services. Deploys to Vercel with zero monthly cost.
-
-## 🚀 Quick Start
-
 ### 1. Get Free API Keys (5 min)
 - **MongoDB**: [mongodb.com/cloud/atlas](https://mongodb.com/cloud/atlas) → Create free M0 cluster
 - **YouTube API**: [console.cloud.google.com](https://console.cloud.google.com) → Enable YouTube Data API v3
@@ -12,14 +8,7 @@ Automated YouTube Shorts generator using free AI services. Deploys to Vercel wit
 - **OpenRouter**: [openrouter.ai](https://openrouter.ai) → Free Mistral-7B access
 - **Cron Secret**: Run `openssl rand -hex 32`
 
-### 2. Deploy to Vercel (5 min)
-```bash
-npm install -g vercel
-vercel
-```
-Then add all env vars in Vercel Dashboard → Settings → Environment Variables.
-
-### 3. Get YouTube Refresh Token
+### 2. Get YouTube Refresh Token
 1. Go to [Google OAuth Playground](https://developers.google.com/oauthplayground)
 2. Select YouTube Data API v3 scopes
 3. Exchange for refresh token
@@ -51,32 +40,5 @@ Configured in `vercel.json` to run at:
 - **StreamElements** - Fallback TTS (no key needed!)
 - **FFmpeg** - Video creation
 
-## 📁 Project Structure
-```
-brainrot-automation/
-├── pages/
-│   ├── index.js              # Dashboard page
-│   ├── _app.js               # Next.js app wrapper
-│   └── api/
-│       ├── config.js         # Settings API
-│       ├── jobs.js           # Jobs tracking API
-│       ├── stats.js          # Statistics API
-│       ├── trigger.js        # Manual trigger
-│       └── cron/
-│           └── generate-videos.js  # Main automation
-├── components/
-│   └── Dashboard.jsx         # UI dashboard
-├── lib/
-│   ├── mongodb.js            # DB connection
-│   ├── models.js             # Mongoose schemas
-│   ├── aiServices.js         # AI API wrappers
-│   ├── youtubeUploader.js    # YouTube upload
-│   └── videoCreator.js       # FFmpeg video creation
-├── data/
-│   └── characters.json       # Brainrot characters
-├── styles/
-│   └── globals.css           # Global styles
-├── vercel.json               # Cron schedule config
-├── next.config.js            # Next.js config
-└── package.json
+
 ```
